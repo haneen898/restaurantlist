@@ -14,8 +14,8 @@ const RestaurantList = () => {
     };
 
     const handleChangeRating = (index) => {
-        const newRating = prompt('Enter new rating (1-10):');
-        if (newRating >= 1 && newRating <= 10) {
+        const newRating = prompt('Enter new rating (1-5):');
+        if (newRating >= 1 && newRating <= 5) {
             const updatedRestaurants = [...restaurants];
             updatedRestaurants[index].rating = newRating;
             setRestaurants(updatedRestaurants);

@@ -13,7 +13,7 @@ const RestaurantDetails = ({ restaurants }) => {
         <div className="p-4 border rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold">{restaurant.name}</h2>
             <p className="text-gray-600">{restaurant.location}</p>
-            <p className="text-yellow-500">Rating: {restaurant.rating} / 10</p>
+            <p className="text-yellow-500">Rating: {restaurant.rating} / 5</p>
         </div>
     );
 };
