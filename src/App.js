@@ -21,31 +21,3 @@ export default App;
 
 
 
-
-// import React from 'react';
-// import RestaurantList from './RestaurantList';
-// import RestaurantForm from './RestaurantForm';
-
-// const App = () => {
-//   // Mock data for demonstration
-//   const restaurants = [
-//     { id: 1, name: 'Restaurant A', location: 'Location A', rating: 4 },
-//     { id: 2, name: 'Restaurant B', location: 'Location B', rating: 3 },
-//     { id: 3, name: 'Restaurant C', location: 'Location C', rating: 5 },
-//   ];
-
-//   const handleAddRestaurant = (newRestaurant) => {
-//     // Implement logic to add new restaurant
-//     console.log('Adding new restaurant:', newRestaurant);
-//   };
-
-//   return (
-//     <div>
-//       <h1>Welcome to My Restaurant App</h1>
-//       <RestaurantForm onSubmit={handleAddRestaurant} />
-//       <RestaurantList restaurants={restaurants} />
-//     </div>
-//   );
-// };
-
-// export default App;

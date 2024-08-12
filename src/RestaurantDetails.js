@@ -23,21 +23,3 @@ export default RestaurantDetails;
 
 
 
-
-// import React from 'eact';
-
-// const RestaurantDetails = ({ match, restaurants }) => {
-//   const restaurantId = match.params.id;
-//   const restaurant = restaurants.find((r) => r.id === parseInt(restaurantId));
-
-//   return (
-//     <div>
-//       <h1>{restaurant.name}</h1>
-//       <p>Location: {restaurant.location}</p>
-//       <p>Rating: {restaurant.rating}</p>
-//       {/* display more details about the restaurant */}
-//     </div>
-//   );
-// };
-
-// export default RestaurantDetails;

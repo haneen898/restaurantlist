@@ -79,32 +79,3 @@ export default RestaurantForm;
 
 
 
-
-
-
-// import React, { useState } from 'react';
-// import { TextField, Button, Slider } from '@mui/material';
-
-// const RestaurantForm = ({ addRestaurant }) => {
-//   const [name, setName] = useState('');
-//   const [location, setLocation] = useState('');
-//   const [rating, setRating] = useState(1);
-
-//   const handleAddRestaurant = () => {
-//     addRestaurant({ name, location, rating });
-//     setName('');
-//     setLocation('');
-//     setRating(1);
-//   };
-
-//   return (
-//     <div>
-//       <TextField label="Name" value={name} onChange={(e) => setName(e.target.value)} data-testid='restaurant-name-input' />
-//       <TextField label="Location" value={location} onChange={(e) => setLocation(e.target.value)} data-testid='restaurant-location-input' />
-//       <Slider value={rating} onChange={(e, newValue) => setRating(newValue)} min={1} max={5} step={1} data-testid='range-input' />
-//       <Button variant="contained" onClick={handleAddRestaurant}>Add</Button>
-//     </div>
-//   );
-// };
-
-// export default RestaurantForm;

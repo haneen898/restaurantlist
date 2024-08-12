@@ -41,17 +41,3 @@ export default RestaurantList;
 
 
 
-// import React from 'react';
-// import RestaurantCard from './RestaurantCard';
-
-// const RestaurantList = ({ restaurants }) => {
-//   return (
-//     <div data-testid='restaurants-list'>
-//       {restaurants.map((restaurant, index) => (
-//         <RestaurantCard key={index} restaurant={restaurant} />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default RestaurantList;

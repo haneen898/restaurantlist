@@ -34,22 +34,3 @@ export default RestaurantCard;
 
 
 
-
-// import React from 'react';
-// import { Card, CardContent, Typography, Button } from '@mui/material';
-
-// const RestaurantCard = ({ restaurant }) => {
-//   return (
-//     <Card>
-//       <CardContent>
-//         <Typography variant="h5" component="div" data-testid='restaurant-name'>{restaurant.name}</Typography>
-//         <Typography color="textSecondary" data-testid='restaurant-location'>{restaurant.location}</Typography>
-//         <Typography variant="body2" data-testid='restaurant-rating'>Rating: {restaurant.rating}/5</Typography>
-//         <Button variant="contained" color="secondary" data-testid='delete-button'>Delete</Button>
-//         <Button variant="contained" color="primary" data-testid='change-rate-button'>Change Rate</Button>
-//       </CardContent>
-//     </Card>
-//   );
-// };
-
-// export default RestaurantCard;
